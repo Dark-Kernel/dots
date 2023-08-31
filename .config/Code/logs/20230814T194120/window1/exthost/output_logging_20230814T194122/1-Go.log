@@ -1,9 +1,0 @@
-Tools environment: GOPATH=/home/stroky/go
-Installing 2 tools at /home/stroky/go/bin in module mode.
-  dlv
-  staticcheck
-
-Installing github.com/go-delve/delve/cmd/dlv@latest (/home/stroky/go/bin/dlv) SUCCEEDED
-Installing honnef.co/go/tools/cmd/staticcheck@latest (/home/stroky/go/bin/staticcheck) SUCCEEDED
-
-All tools successfully installed. You are ready to Go. :)

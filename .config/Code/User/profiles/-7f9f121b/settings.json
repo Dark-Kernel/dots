@@ -1,8 +1,0 @@
-{
-    "workbench.colorTheme": "Wal",
-    "redhat.telemetry.enabled": false,
-    "terminal.integrated.fontFamily": "'JetBrainsMono Nerd Font'",
-    "editor.mouseWheelZoom": true,
-    "code-runner.runInTerminal": true,
-    "extensions.ignoreRecommendations": true
-}

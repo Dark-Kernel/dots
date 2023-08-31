@@ -1,7 +1,0 @@
-Tools environment: GOPATH=/home/stroky/go/bin/
-Installing 1 tool at /home/stroky/go/bin/bin in module mode.
-  gopls@0.13.2
-
-Installing golang.org/x/tools/gopls@v0.13.2 (/home/stroky/go/bin/gopls) SUCCEEDED
-
-All tools successfully installed. You are ready to Go. :)
