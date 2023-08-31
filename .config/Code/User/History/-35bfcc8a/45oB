@@ -1,0 +1,90 @@
+from vscode
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#	new file:   Python/pass_gen.py
+#
+# Untracked files:
+#	.vscode/
+#	AWD_EXP_7_code.cs
+#	Bash/
+#	HTML/
+#	Java/
+#	Python/10_student.py
+#	Python/11_biodata(1).py
+#	Python/11_biodata.py
+#	Python/12_loops.py
+#	Python/13_packages.py
+#	Python/14_sets.py
+#	Python/15_file_io.py
+#	Python/2_simple_python_program.py
+#	Python/AI.py
+#	Python/Ascii_c/
+#	Python/Chp1/
+#	Python/Class.py
+#	Python/Django/
+#	Python/Exp10.py
+#	Python/Exp11.py
+#	Python/Exp12.py
+#	Python/Exp13.py
+#	Python/Exp14.py
+#	Python/Exp15.py
+#	Python/Exp2.py
+#	Python/Exp3a.py
+#	Python/Exp3b.py
+#	Python/Exp3c.py
+#	Python/Exp4.py
+#	Python/Exp5a.py
+#	Python/Exp7.py
+#	Python/Exp8a.py
+#	Python/Exp8b.py
+#	Python/Exp9.py
+#	Python/File.py
+#	Python/FileIO.py
+#	Python/First.py
+#	Python/Flask/
+#	Python/HelloArch.py
+#	Python/Pandas.py
+#	Python/Pandas_DataFrames.py
+#	Python/Pandas_series.py
+#	Python/Pots.py
+#	Python/Qrcode.py
+#	Python/Revision/
+#	Python/Star.py
+#	Python/__init__.py
+#	Python/ascii-art.py
+#	Python/audio.py
+#	Python/barcode.py
+#	Python/binder.py
+#	Python/cartoon.py
+#	Python/cgi.py
+#	Python/first (1).py
+#	Python/install.py
+#	Python/my1StScript.py
+#	Python/night.py
+#	Python/one.py
+#	Python/practice1.py
+#	Python/practice2.py
+#	Python/practice3.py
+#	Python/practice4.py
+#	Python/practice5.py
+#	Python/programForPy.py
+#	Python/python1.py
+#	Python/python2.py
+#	Python/remove.py
+#	Python/script.py
+#	Python/students.py
+#	Python/ternary.py
+#	Python/wA_MESSAGE.py
+#	Table.txt
+#	env/
+#	formfind.pl
+#	requirement.txt
+#	requirements.txt
+#	speech.mp3
+#

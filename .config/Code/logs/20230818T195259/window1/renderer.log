@@ -1,0 +1,3 @@
+2023-08-18 19:53:07.912 [info] [perf] Render performance baseline is 50ms
+2023-08-18 19:54:03.034 [error] [MattiasBaake.vscode-snippets-for-ansible]: Unknown language in `contributes.vscode-snippets-for-ansible.language`. Provided value: ansible
+2023-08-18 19:54:03.183 [warning] No search provider registered for scheme: file, waiting

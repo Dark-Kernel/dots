@@ -1,0 +1,4 @@
+#!/bin/bash
+
+rsync -arvz -e 'ssh -p 8022' --progress $1 u0_a558@192.168.0.102:~/$2
+

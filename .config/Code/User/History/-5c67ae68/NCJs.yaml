@@ -1,0 +1,8 @@
+- name: "Hellow world"
+  hosts: localhost
+  tasks: 
+    - name: "Printing hellow world"
+      command: echo 'hello world'
+
+
+      

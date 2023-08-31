@@ -1,0 +1,65 @@
+2023-08-14 19:39:53.136 [info] Log level: Info
+2023-08-14 19:39:53.136 [info] Validating found git in: "git"
+2023-08-14 19:39:53.136 [info] Using git "2.41.0" from "git"
+2023-08-14 19:39:53.136 [info] > git rev-parse --show-toplevel [13ms]
+2023-08-14 19:39:53.136 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-08-14 19:39:53.152 [info] > git rev-parse --show-toplevel [10ms]
+2023-08-14 19:39:53.152 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-08-14 19:39:53.232 [info] > git rev-parse --show-toplevel [17ms]
+2023-08-14 19:39:53.232 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-08-14 19:39:53.261 [info] > git rev-parse --show-toplevel [12ms]
+2023-08-14 19:39:53.261 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-08-14 19:39:53.268 [info] > git rev-parse --show-toplevel [2ms]
+2023-08-14 19:39:53.276 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2023-08-14 19:39:53.288 [info] Open repository: /home/stroky/.local/codes/Programming
+2023-08-14 19:39:53.323 [info] > git config --get commit.template [11ms]
+2023-08-14 19:39:53.325 [info] > git rev-parse --show-toplevel [3ms]
+2023-08-14 19:39:53.325 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-08-14 19:39:53.346 [info] No remotes found in the git config file.
+2023-08-14 19:39:53.357 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [12ms]
+2023-08-14 19:39:53.364 [info] > git rev-parse --show-toplevel [8ms]
+2023-08-14 19:39:53.364 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-08-14 19:39:53.372 [info] > git rev-parse --show-toplevel [2ms]
+2023-08-14 19:39:53.372 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-08-14 19:39:53.397 [info] > git status -z -uall [34ms]
+2023-08-14 19:39:53.530 [info] > git rev-parse --show-toplevel [141ms]
+2023-08-14 19:39:53.530 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-08-14 19:39:53.831 [info] > git config --get commit.template [304ms]
+2023-08-14 19:39:53.880 [info] No remotes found in the git config file.
+2023-08-14 19:39:53.882 [info] > git check-ignore -v -z --stdin [42ms]
+2023-08-14 19:39:53.883 [info] > git rev-parse --show-toplevel [26ms]
+2023-08-14 19:39:53.883 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-08-14 19:39:53.894 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [15ms]
+2023-08-14 19:39:53.916 [info] > git rev-parse --show-toplevel [22ms]
+2023-08-14 19:39:53.916 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-08-14 19:39:53.929 [info] > git rev-parse --show-toplevel [6ms]
+2023-08-14 19:39:53.929 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-08-14 19:39:53.958 [info] > git status -z -uall [43ms]
+2023-08-14 19:39:54.004 [info] > git rev-parse --show-toplevel [48ms]
+2023-08-14 19:39:54.004 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-08-14 19:39:54.016 [info] > git rev-parse --show-toplevel [1ms]
+2023-08-14 19:39:54.016 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-08-14 19:39:54.038 [info] > git rev-parse --show-toplevel [2ms]
+2023-08-14 19:39:54.038 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-08-14 19:39:54.051 [info] > git rev-parse --show-toplevel [0ms]
+2023-08-14 19:39:54.051 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-08-14 19:39:54.498 [info] > git rev-parse --show-toplevel [428ms]
+2023-08-14 19:39:54.498 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-08-14 19:39:54.512 [info] > git rev-parse --show-toplevel [4ms]
+2023-08-14 19:39:54.512 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-08-14 19:39:54.523 [info] > git rev-parse --show-toplevel [1ms]
+2023-08-14 19:39:54.524 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-08-14 19:39:54.532 [info] > git rev-parse --show-toplevel [1ms]
+2023-08-14 19:39:54.532 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-08-14 19:39:54.540 [info] > git rev-parse --show-toplevel [1ms]
+2023-08-14 19:39:54.540 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-08-14 19:39:54.553 [info] > git rev-parse --show-toplevel [1ms]
+2023-08-14 19:39:54.553 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-08-14 19:39:54.562 [info] > git rev-parse --show-toplevel [1ms]
+2023-08-14 19:39:54.562 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-08-14 19:39:54.574 [info] > git rev-parse --show-toplevel [1ms]
+2023-08-14 19:39:54.574 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-08-14 19:39:54.591 [info] > git rev-parse --show-toplevel [0ms]
+2023-08-14 19:39:54.591 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-08-14 19:39:54.599 [info] > git rev-parse --show-toplevel [1ms]
+2023-08-14 19:39:54.599 [info] fatal: not a git repository (or any of the parent directories): .git

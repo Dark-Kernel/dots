@@ -1,0 +1,149 @@
+[Info  - 7:41:22 PM] 2023/08/14 19:41:22 go info for /home/stroky/.local/codes
+(go dir /home/stroky/.local/codes)
+(go version go version go1.21.0 linux/amd64)
+(valid build configuration = false)
+(build flags: [])
+(selected go env: [GO111MODULE=, GOCACHE=/home/stroky/.cache/go-build, GOFLAGS=, GOMODCACHE=/home/stroky/go/pkg/mod, GOPATH=/home/stroky/go, GOPRIVATE=, GOROOT=/usr/lib/go, GOWORK=])
+
+
+[Info  - 7:41:22 PM] 2023/08/14 19:41:22 go/packages.Load #1
+	snapshot=0
+	directory=file:///home/stroky/.local/codes
+	query=[./ builtin]
+	packages=2
+
+[Info  - 7:41:22 PM] 2023/08/14 19:41:22 go/packages.Load #1: updating metadata for 0 packages
+
+[Info  - 7:41:22 PM] 2023/08/14 19:41:22 reloadOrphanedFiles reloading
+	files=[file:///home/stroky/.local/codes/golangg/hello.go]
+
+[Info  - 7:41:23 PM] 2023/08/14 19:41:23 reloadOrphanedFiles reloading
+	files=[file:///home/stroky/.local/codes/golangg/hello.go]
+
+[Info  - 7:41:23 PM] 2023/08/14 19:41:23 go/packages.Load #2
+	snapshot=1
+	directory=file:///home/stroky/.local/codes
+	package="command-line-arguments"
+	files=[/home/stroky/.local/codes/golangg/hello.go]
+
+[Info  - 7:41:23 PM] 2023/08/14 19:41:23 go/packages.Load #2
+	snapshot=1
+	directory=file:///home/stroky/.local/codes
+	query=[file=/home/stroky/.local/codes/golangg/hello.go]
+	packages=1
+
+[Info  - 7:41:23 PM] 2023/08/14 19:41:23 go/packages.Load #2: updating metadata for 43 packages
+
+[Info  - 7:41:23 PM] 2023/08/14 19:41:23 go/packages.Load #3
+	snapshot=1
+	directory=file:///home/stroky/.local/codes
+	query=[file=/home/stroky/.local/codes/golangg/hello.go]
+	packages=1
+
+[Info  - 7:41:23 PM] 2023/08/14 19:41:23 go/packages.Load #3
+	snapshot=1
+	directory=file:///home/stroky/.local/codes
+	package="command-line-arguments"
+	files=[/home/stroky/.local/codes/golangg/hello.go]
+
+[Info  - 7:41:23 PM] 2023/08/14 19:41:23 go/packages.Load #3: updating metadata for 0 packages
+
+[Error - 7:41:24 PM] 2023/08/14 19:41:24 errors loading workspace: gopls was not able to find modules in your workspace.
+When outside of GOPATH, gopls needs to know which modules you are working on.
+You can fix this by opening your workspace to a folder inside a Go module, or
+by using a go.work file to specify multiple modules.
+See the documentation for more information on setting up your workspace:
+https://github.com/golang/tools/blob/master/gopls/doc/workspace.md.
+	snapshot=1
+	directory=file:///home/stroky/.local/codes
+
+[Error - 7:41:24 PM] 2023/08/14 19:41:24 errors loading workspace: gopls was not able to find modules in your workspace.
+When outside of GOPATH, gopls needs to know which modules you are working on.
+You can fix this by opening your workspace to a folder inside a Go module, or
+by using a go.work file to specify multiple modules.
+See the documentation for more information on setting up your workspace:
+https://github.com/golang/tools/blob/master/gopls/doc/workspace.md.
+	snapshot=1
+	directory=file:///home/stroky/.local/codes
+
+[Error - 7:41:24 PM] 2023/08/14 19:41:24 errors loading workspace: gopls was not able to find modules in your workspace.
+When outside of GOPATH, gopls needs to know which modules you are working on.
+You can fix this by opening your workspace to a folder inside a Go module, or
+by using a go.work file to specify multiple modules.
+See the documentation for more information on setting up your workspace:
+https://github.com/golang/tools/blob/master/gopls/doc/workspace.md.
+	snapshot=1
+	directory=file:///home/stroky/.local/codes
+
+[Error - 7:41:24 PM] 2023/08/14 19:41:24 errors loading workspace: gopls was not able to find modules in your workspace.
+When outside of GOPATH, gopls needs to know which modules you are working on.
+You can fix this by opening your workspace to a folder inside a Go module, or
+by using a go.work file to specify multiple modules.
+See the documentation for more information on setting up your workspace:
+https://github.com/golang/tools/blob/master/gopls/doc/workspace.md.
+	snapshot=1
+	directory=file:///home/stroky/.local/codes
+
+[Error - 7:41:25 PM] 2023/08/14 19:41:25 errors loading workspace: gopls was not able to find modules in your workspace.
+When outside of GOPATH, gopls needs to know which modules you are working on.
+You can fix this by opening your workspace to a folder inside a Go module, or
+by using a go.work file to specify multiple modules.
+See the documentation for more information on setting up your workspace:
+https://github.com/golang/tools/blob/master/gopls/doc/workspace.md.
+	snapshot=1
+	directory=file:///home/stroky/.local/codes
+
+[Error - 7:41:25 PM] 2023/08/14 19:41:25 errors loading workspace: gopls was not able to find modules in your workspace.
+When outside of GOPATH, gopls needs to know which modules you are working on.
+You can fix this by opening your workspace to a folder inside a Go module, or
+by using a go.work file to specify multiple modules.
+See the documentation for more information on setting up your workspace:
+https://github.com/golang/tools/blob/master/gopls/doc/workspace.md.
+	snapshot=1
+	directory=file:///home/stroky/.local/codes
+
+[Error - 7:41:25 PM] 2023/08/14 19:41:25 errors loading workspace: gopls was not able to find modules in your workspace.
+When outside of GOPATH, gopls needs to know which modules you are working on.
+You can fix this by opening your workspace to a folder inside a Go module, or
+by using a go.work file to specify multiple modules.
+See the documentation for more information on setting up your workspace:
+https://github.com/golang/tools/blob/master/gopls/doc/workspace.md.
+	snapshot=1
+	directory=file:///home/stroky/.local/codes
+
+[Info  - 7:41:54 PM] 2023/08/14 19:41:54 background imports cache refresh starting
+
+[Info  - 7:41:54 PM] 2023/08/14 19:41:54 background refresh finished after 351.027µs
+
+[Info  - 7:51:38 PM] 2023/08/14 19:51:38 background imports cache refresh starting
+
+[Info  - 7:51:38 PM] 2023/08/14 19:51:38 background refresh finished after 420.971µs
+
+[Info  - 7:52:09 PM] 2023/08/14 19:52:09 background imports cache refresh starting
+
+[Info  - 7:52:09 PM] 2023/08/14 19:52:09 background refresh finished after 377.22µs
+
+[Error - 7:52:44 PM] 2023/08/14 19:52:44 errors loading workspace: gopls was not able to find modules in your workspace.
+When outside of GOPATH, gopls needs to know which modules you are working on.
+You can fix this by opening your workspace to a folder inside a Go module, or
+by using a go.work file to specify multiple modules.
+See the documentation for more information on setting up your workspace:
+https://github.com/golang/tools/blob/master/gopls/doc/workspace.md.
+	snapshot=1
+	directory=file:///home/stroky/.local/codes
+
+[Info  - 7:53:15 PM] 2023/08/14 19:53:15 background imports cache refresh starting
+
+[Info  - 7:53:15 PM] 2023/08/14 19:53:15 background refresh finished after 362.898µs
+
+[Info  - 7:54:02 PM] 2023/08/14 19:54:02 background refresh finished after 94.798µs
+
+[Info  - 7:54:02 PM] 2023/08/14 19:54:02 background imports cache refresh starting
+
+[Info  - 7:55:00 PM] 2023/08/14 19:55:00 background imports cache refresh starting
+
+[Info  - 7:55:00 PM] 2023/08/14 19:55:00 background refresh finished after 376.05µs
+
+[Info  - 7:55:16 PM] 2023/08/14 19:55:16 Shutdown session
+	shutdown_session=1
+

@@ -1,0 +1,18 @@
+#!/bin/bash
+
+bluetoothctl agent on
+bluetoothctl remove 00:1E:7C:91:EF:F7 >/dev/null
+bluetoothctl scan on &
+sleep 10
+bluetoothctl pair 00:1E:7C:91:EF:F7 >/dev/null
+sleep 4
+bluetoothctl trust 00:1E:7C:91:EF:F7 >/dev/null
+sleep 2
+#bluetoothctl disconnect 00:1E:7C:91:EF:F7
+echo -e "\n\nDisconnect\n\n"
+sleep 4
+sudo systemctl restart bluetooth
+echo -e "\n\nStart your bluetooth device.\n\n"
+sleep 5
+bluetoothctl
+

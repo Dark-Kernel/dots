@@ -1,0 +1,111 @@
+Error: Command failed: command -v ansible-lint
+
+    at ChildProcess.exithandler (node:child_process:409:12)
+    at ChildProcess.emit (node:events:513:28)
+    at maybeClose (node:internal/child_process:1121:16)
+    at Socket.<anonymous> (node:internal/child_process:479:11)
+    at Socket.emit (node:events:513:28)
+    at Pipe.<anonymous> (node:net:757:14) {
+  code: 1,
+  killed: false,
+  signal: null,
+  cmd: 'command -v ansible-lint',
+  stdout: '',
+  stderr: ''
+}
+Path for lint:  
+[Error - 3:59:30 PM] An error occurred in 'onDidOpen' handler: [TypeError] Cannot read properties of undefined (reading 'has')
+TypeError: Cannot read properties of undefined (reading 'has')
+    at /home/stroky/.vscode/extensions/redhat.ansible-2.6.92/out/server/src/server.js:2:23918
+    at Generator.next (<anonymous>)
+    at s (/home/stroky/.vscode/extensions/redhat.ansible-2.6.92/out/server/src/server.js:2:21924)
+cmd 'ansible-lint --version' was not executed with the following error: ' Error: Command failed: ansible-lint --version
+/bin/sh: line 1: ansible-lint: command not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Error: Command failed: ansible-lint --version
+/bin/sh: line 1: ansible-lint: command not found
+
+cmd 'ansible-lint --version' was not executed with the following error: ' Error: Command failed: ansible-lint --version
+/bin/sh: line 1: ansible-lint: command not found
+
+Error: Command failed: command -v ansible-lint
+
+    at ChildProcess.exithandler (node:child_process:409:12)
+    at ChildProcess.emit (node:events:513:28)
+    at maybeClose (node:internal/child_process:1121:16)
+    at Socket.<anonymous> (node:internal/child_process:479:11)
+    at Socket.emit (node:events:513:28)
+    at Pipe.<anonymous> (node:net:757:14) {
+  code: 1,
+  killed: false,
+  signal: null,
+  cmd: 'command -v ansible-lint',
+  stdout: '',
+  stderr: ''
+}
+Path for lint:  
+[Error - 4:00:20 PM] An error occurred in 'onDidSave' handler: [TypeError] Cannot read properties of undefined (reading 'has')
+TypeError: Cannot read properties of undefined (reading 'has')
+    at /home/stroky/.vscode/extensions/redhat.ansible-2.6.92/out/server/src/server.js:2:23918
+    at Generator.next (<anonymous>)
+    at s (/home/stroky/.vscode/extensions/redhat.ansible-2.6.92/out/server/src/server.js:2:21924)
+cmd 'ansible-lint --version' was not executed with the following error: ' Error: Command failed: ansible-lint --version
+/bin/sh: line 1: ansible-lint: command not found
+
+Error: Command failed: command -v ansible-lint
+
+    at ChildProcess.exithandler (node:child_process:409:12)
+    at ChildProcess.emit (node:events:513:28)
+    at maybeClose (node:internal/child_process:1121:16)
+    at ChildProcess._handle.onexit (node:internal/child_process:304:5) {
+  code: 1,
+  killed: false,
+  signal: null,
+  cmd: 'command -v ansible-lint',
+  stdout: '',
+  stderr: ''
+}
+Path for lint:  
+[Error - 4:03:21 PM] An error occurred in 'onDidSave' handler: [TypeError] Cannot read properties of undefined (reading 'has')
+TypeError: Cannot read properties of undefined (reading 'has')
+    at /home/stroky/.vscode/extensions/redhat.ansible-2.6.92/out/server/src/server.js:2:23918
+    at Generator.next (<anonymous>)
+    at s (/home/stroky/.vscode/extensions/redhat.ansible-2.6.92/out/server/src/server.js:2:21924)
+Error: Command failed: command -v ansible-lint
+
+    at ChildProcess.exithandler (node:child_process:409:12)
+    at ChildProcess.emit (node:events:513:28)
+    at maybeClose (node:internal/child_process:1121:16)
+    at ChildProcess._handle.onexit (node:internal/child_process:304:5) {
+  code: 1,
+  killed: false,
+  signal: null,
+  cmd: 'command -v ansible-lint',
+  stdout: '',
+  stderr: ''
+}
+Path for lint:  
+[Error - 4:03:22 PM] An error occurred in 'onDidSave' handler: [TypeError] Cannot read properties of undefined (reading 'has')
+TypeError: Cannot read properties of undefined (reading 'has')
+    at /home/stroky/.vscode/extensions/redhat.ansible-2.6.92/out/server/src/server.js:2:23918
+    at Generator.next (<anonymous>)
+    at s (/home/stroky/.vscode/extensions/redhat.ansible-2.6.92/out/server/src/server.js:2:21924)
+Error: Command failed: command -v ansible-lint
+
+    at ChildProcess.exithandler (node:child_process:409:12)
+    at ChildProcess.emit (node:events:513:28)
+    at maybeClose (node:internal/child_process:1121:16)
+    at ChildProcess._handle.onexit (node:internal/child_process:304:5) {
+  code: 1,
+  killed: false,
+  signal: null,
+  cmd: 'command -v ansible-lint',
+  stdout: '',
+  stderr: ''
+}
+Path for lint:  
+[Error - 4:03:38 PM] An error occurred in 'onDidSave' handler: [TypeError] Cannot read properties of undefined (reading 'has')
+TypeError: Cannot read properties of undefined (reading 'has')
+    at /home/stroky/.vscode/extensions/redhat.ansible-2.6.92/out/server/src/server.js:2:23918
+    at Generator.next (<anonymous>)
+    at s (/home/stroky/.vscode/extensions/redhat.ansible-2.6.92/out/server/src/server.js:2:21924)

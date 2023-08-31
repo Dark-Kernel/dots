@@ -1,0 +1,9 @@
+#!/bin/bash
+
+query=$(printf '%s' "$*" | tr ' ' '+')
+#mpv "https://youtube.com/$(curl -s "https://vid.puffyan.us/search?q=$query" | grep -Eo "watch\?v=.{11}" | dmenu -l 10)"
+
+echo "$query"
+
+link="https://www.youtube.com/results?search_query=${query}"
+echo "https://youtube.com/$( curl $link | pup 'a#video-title [title]' | dmenu -l 10 )"

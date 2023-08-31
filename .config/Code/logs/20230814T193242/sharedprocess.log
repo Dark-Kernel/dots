@@ -1,0 +1,9 @@
+2023-08-14 19:32:53.150 [info] Getting Manifest... ms-python.vscode-pylance
+2023-08-14 19:32:53.182 [info] Installing extension: ms-python.vscode-pylance
+2023-08-14 19:32:54.074 [info] Getting Manifest... ms-python.python
+2023-08-14 19:33:02.512 [warning] Extension signature verification failed with error 'UnknownError': ms-python.vscode-pylance
+2023-08-14 19:33:05.667 [info] Extracted extension to file:///home/stroky/.vscode/extensions/ms-python.vscode-pylance-2023.8.20: ms-python.vscode-pylance
+2023-08-14 19:33:05.707 [info] Renamed to /home/stroky/.vscode/extensions/ms-python.vscode-pylance-2023.8.20
+2023-08-14 19:33:05.711 [info] Extracting extension completed. ms-python.vscode-pylance
+2023-08-14 19:33:05.765 [info] Extension installed successfully: ms-python.vscode-pylance
+2023-08-14 19:33:05.774 [info] Marked extension as uninstalled ms-python.vscode-pylance-2023.8.10

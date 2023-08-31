@@ -1,0 +1,12 @@
+#!/bin/bash
+
+state=$(ps -ef | awk '{print $8}' | grep waybar)
+exitcode=$?
+
+if [[ ${exitcode} -eq 1 ]];
+then
+	waybar &>/dev/null & 
+else 
+	killall waybar
+fi
+

@@ -1,0 +1,6 @@
+#!/bin/sh
+
+ARG=$(git rev-parse --sq-quote "$@")
+CMD="git-imager.sh $ARG"
+eval "$CMD"
+

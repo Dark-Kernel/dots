@@ -1,0 +1,15 @@
+#!/bin/bash
+
+sudo pacman -S python-pywal
+wget http://0x0.st/oAkF.zip
+mv oAkF.zip Wall.zip
+unzip Wall.zip 
+mv Wall $HOME/Pictures/
+#wall=$(find $HOME/Pictures/Wall -type f | shuf -n 1)
+#gsettings set org.gnome.desktop.background picture-uri file:///$wall 
+#wal -i $wall >/dev/null 
+
+wget http://0x0.st/oAdH.sh
+mv oAdH.sh setbg
+mv setbg /bin/
+

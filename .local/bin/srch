@@ -1,0 +1,20 @@
+#!/bin/bash
+#curl -H $headers https://www.google.com/search?q=how+to+install+curl+in+windows 
+
+inp=$@
+inp=${inp// /+}
+x=1
+while [ $x -le 10 ]
+do
+option="$(curl -A 'Mozilla/5.0 (MSIE; Windows 10)' "https://www.google.com/search?q=${inp}" | pup 'a.cz3goc attr{href}' | dmenu -l 10)"
+#echo "$option"
+
+if [ "$option" == "--" ];
+then 
+	exit 0;
+else
+	$(echo "${option}" | xargs qutebrowser) > /dev/null 2>&1
+fi
+
+x=$(( $x + 1))
+done

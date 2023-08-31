@@ -1,0 +1,118 @@
+2023-08-09 15:32:54.505 [info] Getting Manifest... dlasagno.wal-theme
+2023-08-09 15:32:54.522 [info] Installing extension: dlasagno.wal-theme
+2023-08-09 15:33:00.508 [warning] Extension signature verification failed with error 'UnknownError': dlasagno.wal-theme
+2023-08-09 15:33:00.600 [info] Extracted extension to file:///home/stroky/.vscode/extensions/dlasagno.wal-theme-1.2.0: dlasagno.wal-theme
+2023-08-09 15:33:00.640 [info] Renamed to /home/stroky/.vscode/extensions/dlasagno.wal-theme-1.2.0
+2023-08-09 15:33:00.647 [info] Extracting extension completed. dlasagno.wal-theme
+2023-08-09 15:33:00.707 [info] Extension installed successfully: dlasagno.wal-theme
+2023-08-09 15:36:39.288 [info] Getting Manifest... donjayamanne.python-environment-manager
+2023-08-09 15:36:39.295 [info] Installing extension: donjayamanne.python-environment-manager
+2023-08-09 15:36:45.741 [warning] Extension signature verification failed with error 'UnknownError': donjayamanne.python-environment-manager
+2023-08-09 15:36:48.423 [info] Extracted extension to file:///home/stroky/.vscode/extensions/donjayamanne.python-environment-manager-1.0.4: donjayamanne.python-environment-manager
+2023-08-09 15:36:48.491 [info] Renamed to /home/stroky/.vscode/extensions/donjayamanne.python-environment-manager-1.0.4
+2023-08-09 15:36:48.501 [info] Extracting extension completed. donjayamanne.python-environment-manager
+2023-08-09 15:36:48.543 [info] Extension installed successfully: donjayamanne.python-environment-manager
+2023-08-09 15:36:49.027 [info] Getting Manifest... ms-python.python
+2023-08-09 15:36:49.033 [info] Installing extension: ms-python.python
+2023-08-09 15:36:49.763 [info] Getting Manifest... ms-python.vscode-pylance
+2023-08-09 15:36:49.827 [info] Installing extension: ms-python.vscode-pylance ms-python.python
+2023-08-09 15:36:54.642 [info] Getting Manifest... visualstudioexptteam.vscodeintellicode
+2023-08-09 15:36:54.647 [info] Installing extension: visualstudioexptteam.vscodeintellicode
+2023-08-09 15:36:54.990 [info] Getting Manifest... visualstudioexptteam.intellicode-api-usage-examples
+2023-08-09 15:36:56.682 [info] Installing extension: visualstudioexptteam.intellicode-api-usage-examples visualstudioexptteam.vscodeintellicode
+2023-08-09 15:36:58.343 [warning] Extension signature verification failed with error 'UnknownError': ms-python.python
+2023-08-09 15:36:58.743 [warning] Extension signature verification failed with error 'UnknownError': visualstudioexptteam.intellicode-api-usage-examples
+2023-08-09 15:36:58.981 [info] Extracted extension to file:///home/stroky/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.7: visualstudioexptteam.intellicode-api-usage-examples
+2023-08-09 15:36:59.015 [info] Renamed to /home/stroky/.vscode/extensions/visualstudioexptteam.intellicode-api-usage-examples-0.2.7
+2023-08-09 15:36:59.030 [info] Extracting extension completed. visualstudioexptteam.intellicode-api-usage-examples
+2023-08-09 15:37:00.087 [info] Extracted extension to file:///home/stroky/.vscode/extensions/ms-python.python-2023.14.0: ms-python.python
+2023-08-09 15:37:00.145 [info] Renamed to /home/stroky/.vscode/extensions/ms-python.python-2023.14.0
+2023-08-09 15:37:00.172 [info] Extracting extension completed. ms-python.python
+2023-08-09 15:37:09.709 [info] Getting Manifest... kevinrose.vsc-python-indent
+2023-08-09 15:37:09.723 [info] Installing extension: kevinrose.vsc-python-indent
+2023-08-09 15:37:11.813 [warning] Extension signature verification failed with error 'UnknownError': kevinrose.vsc-python-indent
+2023-08-09 15:37:11.839 [info] Extracted extension to file:///home/stroky/.vscode/extensions/kevinrose.vsc-python-indent-1.18.0: kevinrose.vsc-python-indent
+2023-08-09 15:37:11.887 [info] Renamed to /home/stroky/.vscode/extensions/kevinrose.vsc-python-indent-1.18.0
+2023-08-09 15:37:11.888 [info] Extracting extension completed. kevinrose.vsc-python-indent
+2023-08-09 15:37:11.933 [info] Extension installed successfully: kevinrose.vsc-python-indent
+2023-08-09 15:37:15.885 [warning] Extension signature verification failed with error 'UnknownError': ms-python.vscode-pylance
+2023-08-09 15:37:22.346 [info] Extracted extension to file:///home/stroky/.vscode/extensions/ms-python.vscode-pylance-2023.8.10: ms-python.vscode-pylance
+2023-08-09 15:37:23.823 [info] Renamed to /home/stroky/.vscode/extensions/ms-python.vscode-pylance-2023.8.10
+2023-08-09 15:37:23.833 [info] Extracting extension completed. ms-python.vscode-pylance
+2023-08-09 15:37:23.938 [info] Extension installed successfully: ms-python.python
+2023-08-09 15:37:23.939 [info] Extension installed successfully: ms-python.vscode-pylance
+2023-08-09 15:37:44.141 [warning] Extension signature verification failed with error 'UnknownError': visualstudioexptteam.vscodeintellicode
+2023-08-09 15:37:45.332 [info] Extracted extension to file:///home/stroky/.vscode/extensions/visualstudioexptteam.vscodeintellicode-1.2.30: visualstudioexptteam.vscodeintellicode
+2023-08-09 15:37:45.392 [info] Renamed to /home/stroky/.vscode/extensions/visualstudioexptteam.vscodeintellicode-1.2.30
+2023-08-09 15:37:45.400 [info] Extracting extension completed. visualstudioexptteam.vscodeintellicode
+2023-08-09 15:37:45.447 [info] Extension installed successfully: visualstudioexptteam.intellicode-api-usage-examples
+2023-08-09 15:37:45.447 [info] Extension installed successfully: visualstudioexptteam.vscodeintellicode
+2023-08-09 15:38:38.075 [info] Getting Manifest... formulahendry.code-runner
+2023-08-09 15:38:38.090 [info] Installing extension: formulahendry.code-runner
+2023-08-09 15:38:39.021 [warning] Extension signature verification failed with error 'UnknownError': formulahendry.code-runner
+2023-08-09 15:38:39.186 [info] Extracted extension to file:///home/stroky/.vscode/extensions/formulahendry.code-runner-0.12.0: formulahendry.code-runner
+2023-08-09 15:38:39.228 [info] Renamed to /home/stroky/.vscode/extensions/formulahendry.code-runner-0.12.0
+2023-08-09 15:38:39.230 [info] Extracting extension completed. formulahendry.code-runner
+2023-08-09 15:38:39.276 [info] Extension installed successfully: formulahendry.code-runner
+2023-08-09 15:40:02.227 [info] Getting Manifest... johnstoncode.svn-scm
+2023-08-09 15:40:02.243 [info] Installing extension: johnstoncode.svn-scm
+2023-08-09 15:40:08.720 [warning] Extension signature verification failed with error 'UnknownError': johnstoncode.svn-scm
+2023-08-09 15:40:08.809 [info] Extracted extension to file:///home/stroky/.vscode/extensions/johnstoncode.svn-scm-2.17.0: johnstoncode.svn-scm
+2023-08-09 15:40:08.855 [info] Renamed to /home/stroky/.vscode/extensions/johnstoncode.svn-scm-2.17.0
+2023-08-09 15:40:08.856 [info] Extracting extension completed. johnstoncode.svn-scm
+2023-08-09 15:40:08.887 [info] Extension installed successfully: johnstoncode.svn-scm
+2023-08-09 15:40:32.744 [info] Getting Manifest... redhat.ansible
+2023-08-09 15:40:32.764 [info] Installing extension: redhat.ansible
+2023-08-09 15:40:33.544 [info] Getting Manifest... ms-python.python
+2023-08-09 15:40:33.550 [info] Getting Manifest... redhat.vscode-yaml
+2023-08-09 15:40:33.619 [info] Installing extension: redhat.vscode-yaml redhat.ansible
+2023-08-09 15:40:34.553 [warning] Extension signature verification failed with error 'UnknownError': redhat.vscode-yaml
+2023-08-09 15:40:34.631 [info] Extracted extension to file:///home/stroky/.vscode/extensions/redhat.vscode-yaml-1.14.0: redhat.vscode-yaml
+2023-08-09 15:40:34.665 [info] Renamed to /home/stroky/.vscode/extensions/redhat.vscode-yaml-1.14.0
+2023-08-09 15:40:34.666 [info] Extracting extension completed. redhat.vscode-yaml
+2023-08-09 15:40:35.499 [warning] Extension signature verification failed with error 'UnknownError': redhat.ansible
+2023-08-09 15:40:35.588 [info] Extracted extension to file:///home/stroky/.vscode/extensions/redhat.ansible-2.6.92: redhat.ansible
+2023-08-09 15:40:35.683 [info] Renamed to /home/stroky/.vscode/extensions/redhat.ansible-2.6.92
+2023-08-09 15:40:35.692 [info] Extracting extension completed. redhat.ansible
+2023-08-09 15:40:35.741 [info] Extension installed successfully: redhat.vscode-yaml
+2023-08-09 15:40:35.742 [info] Extension installed successfully: redhat.ansible
+2023-08-09 15:42:17.953 [info] Getting Manifest... golang.go
+2023-08-09 15:42:17.966 [info] Installing extension: golang.go
+2023-08-09 15:42:18.891 [warning] Extension signature verification failed with error 'UnknownError': golang.go
+2023-08-09 15:42:18.984 [info] Extracted extension to file:///home/stroky/.vscode/extensions/golang.go-0.39.1: golang.go
+2023-08-09 15:42:19.036 [info] Renamed to /home/stroky/.vscode/extensions/golang.go-0.39.1
+2023-08-09 15:42:19.045 [info] Extracting extension completed. golang.go
+2023-08-09 15:42:19.094 [info] Extension installed successfully: golang.go
+2023-08-09 15:58:29.976 [info] Uninstalling extension from the profile: redhat.ansible@2.6.92 vscode-userdata:/home/stroky/.config/Code/User/profiles/-7f9f121b/extensions.json
+2023-08-09 15:58:30.034 [info] Marked extension as uninstalled redhat.ansible-2.6.92
+2023-08-09 15:58:30.333 [info] Successfully uninstalled extension from the profile redhat.ansible@2.6.92 vscode-userdata:/home/stroky/.config/Code/User/profiles/-7f9f121b/extensions.json
+2023-08-09 15:58:32.761 [info] Getting Manifest... redhat.ansible
+2023-08-09 15:58:32.774 [info] Installing extension: redhat.ansible
+2023-08-09 15:58:33.693 [info] Getting Manifest... ms-python.python
+2023-08-09 15:58:33.716 [info] Getting Manifest... redhat.vscode-yaml
+2023-08-09 15:58:33.904 [warning] Extension signature verification failed with error 'UnknownError': redhat.ansible
+2023-08-09 15:58:33.908 [info] Removed the extension from uninstalled list: redhat.ansible
+2023-08-09 15:58:34.013 [info] Extension installed successfully: redhat.ansible
+2023-08-09 15:58:53.803 [info] Uninstalling extension from the profile: redhat.ansible@2.6.92 vscode-userdata:/home/stroky/.config/Code/User/profiles/-7f9f121b/extensions.json
+2023-08-09 15:58:53.915 [info] Marked extension as uninstalled redhat.ansible-2.6.92
+2023-08-09 15:58:54.179 [info] Successfully uninstalled extension from the profile redhat.ansible@2.6.92 vscode-userdata:/home/stroky/.config/Code/User/profiles/-7f9f121b/extensions.json
+2023-08-09 15:59:16.633 [info] Getting Manifest... redhat.ansible
+2023-08-09 15:59:16.640 [info] Installing extension: redhat.ansible
+2023-08-09 15:59:17.454 [info] Getting Manifest... ms-python.python
+2023-08-09 15:59:17.464 [info] Getting Manifest... redhat.vscode-yaml
+2023-08-09 15:59:17.629 [warning] Extension signature verification failed with error 'UnknownError': redhat.ansible
+2023-08-09 15:59:17.632 [info] Removed the extension from uninstalled list: redhat.ansible
+2023-08-09 15:59:17.694 [info] Extension installed successfully: redhat.ansible
+2023-08-09 16:02:29.304 [info] Getting Manifest... mattiasbaake.vscode-snippets-for-ansible
+2023-08-09 16:02:29.311 [info] Installing extension: mattiasbaake.vscode-snippets-for-ansible
+2023-08-09 16:02:36.829 [warning] Extension signature verification failed with error 'UnknownError': mattiasbaake.vscode-snippets-for-ansible
+2023-08-09 16:02:36.978 [info] Extracted extension to file:///home/stroky/.vscode/extensions/mattiasbaake.vscode-snippets-for-ansible-1.1.0: mattiasbaake.vscode-snippets-for-ansible
+2023-08-09 16:02:37.010 [info] Renamed to /home/stroky/.vscode/extensions/mattiasbaake.vscode-snippets-for-ansible-1.1.0
+2023-08-09 16:02:37.012 [info] Extracting extension completed. mattiasbaake.vscode-snippets-for-ansible
+2023-08-09 16:02:37.056 [info] Extension installed successfully: mattiasbaake.vscode-snippets-for-ansible
+2023-08-09 16:12:01.165 [info] Uninstalling extension from the profile: redhat.ansible@2.6.92 vscode-userdata:/home/stroky/.config/Code/User/profiles/-7f9f121b/extensions.json
+2023-08-09 16:12:01.289 [info] Marked extension as uninstalled redhat.ansible-2.6.92
+2023-08-09 16:12:01.731 [info] Successfully uninstalled extension from the profile redhat.ansible@2.6.92 vscode-userdata:/home/stroky/.config/Code/User/profiles/-7f9f121b/extensions.json
+2023-08-09 16:12:49.839 [info] Uninstalling extension from the profile: johnstoncode.svn-scm@2.17.0 vscode-userdata:/home/stroky/.config/Code/User/profiles/-7f9f121b/extensions.json
+2023-08-09 16:12:49.951 [info] Marked extension as uninstalled johnstoncode.svn-scm-2.17.0
+2023-08-09 16:12:50.244 [info] Successfully uninstalled extension from the profile johnstoncode.svn-scm@2.17.0 vscode-userdata:/home/stroky/.config/Code/User/profiles/-7f9f121b/extensions.json

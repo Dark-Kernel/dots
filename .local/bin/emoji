@@ -1,0 +1,5 @@
+#!/bin/bash
+
+emoji="$(cat $HOME/.local/share/emoji | dmenu -b -p "Select Emoji: " -l 15 | cut -d' ' -f1)"
+#echo "$emoji" | tr "\n" " " | xclip -sel c
+echo "$emoji" | tr "\n" " " | wl-copy

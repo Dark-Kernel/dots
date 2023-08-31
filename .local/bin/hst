@@ -1,0 +1,4 @@
+#!/bin/zsh 
+
+cat ~/.zsh_history | cut -d ";" -f2 | sk | tr -d '\n' | xargs -I {} xdotool type "{}"
+

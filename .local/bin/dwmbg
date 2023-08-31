@@ -1,0 +1,10 @@
+#!/bin/bash
+
+
+wall=$(find /home/stroky/pix/Pictures/Wall -type f | shuf -n 1)
+#wall=$HOME/Downloads/10892387.jpg
+bash /home/stroky/.local/bin/pywal.sh $wall
+wal-telegram 
+cp $wall /home/stroky/.cache/wal-telegram/wallp.jpg
+#bash ~/.config/polybar/material/scripts/pywal.sh $wall
+#bash ~/.config/polybar/shades/scripts/pywal.sh $wall

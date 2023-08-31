@@ -1,0 +1,10 @@
+#!/bin/sh
+
+sudo mount /dev/sda10 /mnt/nixx/
+sudo mount -o bind /dev /mnt/nixx/dev/
+sudo mount -o bind /proc /mnt/nixx/proc/
+sudo mount -o bind /sys /mnt/nixx/sys/
+sudo chroot /mnt/nixx /nix/var/nix/profiles/system/activate
+sudo chroot /mnt/nixx/ /run/current-system/sw/bin/bash
+
+

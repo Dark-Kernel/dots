@@ -1,0 +1,12 @@
+#!/bin/bash
+
+wall=$(find $HOME/pix/Pictures/Wall -type f | shuf -n 1)
+setsid swaybg -m fill -i $wall & 2>1&
+wal -n -t -e -i "$wall" & 
+echo "$wall"
+wal-telegram &
+#alacritty-colors.sh ~/.cache/wal/colors-alacritty.yml  
+#convert $wall /home/stroky/.local/share/bg.png 
+#bash ~/.local/bin/pywal.sh $wall
+#xset r rate 300 50 &
+#rm -f .cache/thumbnails/neofetch/*.png

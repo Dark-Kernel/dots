@@ -1,0 +1,2 @@
+2023-08-18 12:49:36.614 [error] [MattiasBaake.vscode-snippets-for-ansible]: Unknown language in `contributes.vscode-snippets-for-ansible.language`. Provided value: ansible
+2023-08-18 12:49:39.042 [info] [perf] Render performance baseline is 31ms
