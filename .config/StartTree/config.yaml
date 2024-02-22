@@ -1,0 +1,56 @@
+font_size: 22
+theme: pywal 
+tree_1:
+  general:
+    github: "https://www.github.com/"
+    gmail: "https://mail.google.com/"
+    archwiki: 
+      - "https://archlinux.org/"
+      - "arch wiki"
+    always-notes: 
+      - "https://sumit.alwaysdata.net/"
+      - "Yellow-Notes"
+    freshfeeds:
+      - "https://freshfeeds.alwaysdata.net"
+      - "FreshRSS"
+    fivefilters:
+      - "https://freshfeeds.alwaysdata.net/five/"
+      - "FiveFilters"
+
+tree_2:
+  servers:
+    hugo-site:
+      - "https://dark-kernel.web.app/"
+      - "Hugo-Page"
+    GC:
+      - "https://www.cloudskillsboost.google/course_sessions/4394548/video/377251"
+      - "Gcloud-course"
+    Terraform:
+      - "https://developer.hashicorp.com/terraform/tutorials/certification-003/associate-study-003"
+      - "Terraform-cert"
+    golang:
+      - "https://go.dev/doc/"
+      - "Golang-tut"
+
+tree_3:
+  peerxp:
+    aws:
+      - "https://us-east-1.console.aws.amazon.com/ec2/home?region=us-east-1#Instances:v=3;$case=tags:true%5C,client:false;$regex=tags:false%5C,client:false"
+      - "AWS PeerXP Login"
+    clickup:
+      - "https://app.clickup.com/37498381/v/l/13rbgd-4944"
+      - "ClickUP"
+    ghost:
+      - "https://vegastack.com/tutorials/ghost/#/posts"
+      - "PeerXP Ghost Editor"
+    Grafana:
+      - "https://grafana.vegastack.com/dashboards"
+      - "Grafana Dashboard"
+    Prometheus: 
+      - "https://prometheus.vegastack.com/graph?g0.expr=&g0.tab=1&g0.stacked=0&g0.show_exemplars=0&g0.range_input=1h"
+      - "PeerXP Prometheus"
+    Metrics:
+      - "https://docs.google.com/spreadsheets/d/1kTnRK7hxd8lx3EPJ-YOLDxagyl7CAZkEY5B_51WcF-c/edit#gid=0"
+      - "Prometheus Metrics Sheet"
+
+

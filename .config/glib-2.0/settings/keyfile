@@ -1,0 +1,67 @@
+[org/gtk/settings/file-chooser]
+window-position=(45, 25)
+window-size=(1231, 902)
+date-format='regular'
+location-mode='path-bar'
+show-hidden=false
+show-size-column=true
+show-type-column=true
+sidebar-width=188
+sort-column='modified'
+sort-directories-first=false
+sort-order='descending'
+type-format='category'
+
+[org/blueman/general]
+window-properties=[671, 722, 0, 0]
+plugin-list=['NetUsage']
+
+[org/blueman/plugins/powermanager]
+auto-power-on=true
+
+[org/blueman/plugins/recentconns]
+recent-connections=[{'adapter': '00:1A:7D:DA:71:12', 'address': '00:1E:7C:91:EF:F7', 'alias': 'Infinity Glide 501', 'icon': 'audio-headset', 'name': 'Audio and input profiles', 'uuid': '00000000-0000-0000-0000-000000000000', 'time': '1706109006.4514382', 'device': '/org/bluez/hci0/dev_00_1E_7C_91_EF_F7'}, {'adapter': '38:A3:8C:20:94:75', 'address': '41:42:33:DF:10:F5', 'alias': 'M51', 'icon': 'audio-headphones', 'name': 'Audio and input profiles', 'uuid': '00000000-0000-0000-0000-000000000000', 'time': '1705496676.9674742', 'device': '/org/bluez/hci0/dev_41_42_33_DF_10_F5'}, {'adapter': '00:1A:7D:DA:71:12', 'address': '22:22:FE:85:BD:AF', 'alias': 'Redmi 9 Power', 'icon': 'phone', 'name': 'Network Access Point', 'uuid': '00001116-0000-1000-8000-00805f9b34fb', 'time': '1706108865.4731355'}]
+
+[org/blueman/plugins/autoconnect]
+services=[('/org/bluez/hci0/dev_22_22_FE_85_BD_AF', '00000000-0000-0000-0000-000000000000'), ('/org/bluez/hci0/dev_00_1E_7C_91_EF_F7', '00000000-0000-0000-0000-000000000000'), ('/org/bluez/hci0/dev_30_63_71_54_62_A1', '00000000-0000-0000-0000-000000000000')]
+
+[org/gnome/gthumb/general]
+active-extensions=['23hq', 'bookmarks', 'burn_disc', 'catalogs', 'change_date', 'comments', 'contact_sheet', 'convert_format', 'desktop_background', 'edit_metadata', 'exiv2_tools', 'file_manager', 'find_duplicates', 'flicker', 'gstreamer_tools', 'gstreamer_utils', 'image_print', 'image_rotation', 'importer', 'jpeg_utils', 'list_tools', 'oauth', 'photo_importer', 'raw_files', 'red_eye_removal', 'rename_series', 'resize_images', 'search', 'selections', 'slideshow', 'terminal', 'webalbums']
+
+[org/gnome/gthumb/browser]
+thumbnail-list-visible=true
+statusbar-visible=true
+sidebar-visible=true
+maximized=true
+viewer-sidebar='tools'
+fullscreen-sidebar='hidden'
+fullscreen-thumbnails-visible=false
+sidebar-sections=['GthFileProperties:expanded', 'GthFileComment:expanded', 'GthFileDetails:expanded', 'GthImageHistogram:expanded']
+startup-location='file:///home/stroky/pix/mine'
+startup-current-file='file:///home/stroky/pix/mine/sumit_deepak_patel_006.jpg'
+sort-type='file::mtime'
+sort-inverse=false
+folder-tree-sort-type='name'
+folder-tree-sort-inverse=false
+
+[org/gnome/gthumb/data-migration]
+catalogs-2-10=true
+
+[org/gnome/gthumb/crop]
+grid-type='thirds'
+aspect-ratio-width=1
+aspect-ratio-height=1
+aspect-ratio='none'
+aspect-ratio-invert=false
+bind-dimensions=false
+bind-factor=8
+
+[org/gnome/gthumb/pixbuf-savers/jpeg]
+default-ext='jpeg'
+quality=100
+smoothing=0
+optimize=true
+progressive=false
+
+[org/gnome/gthumb/dialogs/save-file]
+show-options=true

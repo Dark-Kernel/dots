@@ -1,0 +1,102 @@
+source ~/.config/neomutt/colors
+source ~/.config/neomutt/mappings
+source ~/.config/neomutt/settings
+unmailboxes *
+
+
+# in/out mail servers
+set realname = "Sumit Patel"
+set imap_pass = "Sumit@24389"
+set smtp_url = "smtps://sumit@alwaysdata.net@smtp-sumit.alwaysdata.net"
+set smtp_pass = "Sumit@24389"
+set folder = "imaps://sumit@alwaysdata.net@imap-sumit.alwaysdata.net"
+set spoolfile = "+INBOX"
+
+set from = "sumit@alwaysdata.net"
+set envelope_from
+set use_from = "yes"
+set record = "+Sent"
+set trash = "+Trash"
+set postponed = "+Drafts"
+set mail_check = 6
+
+# Allow Mutt to open a new IMAP connection automatically.
+unset imap_passive
+
+# Keep the IMAP connection alive by polling intermittently (time in seconds).
+set imap_keepalive = 300
+
+## Hook -- IMPORTANT!
+account-hook $folder "set imap_pass=Sumit@24389"
+
+
+
+
+
+#set ssl_starttls=yes
+#set ssl_force_tls=yes
+#set ssl_starttls = yes
+#set from='sumit@alwaysdata.net'
+#set realname='Sumit'
+#set smtp_pass='Sumit@24389'
+#set folder = imaps://imap-sumit.alwaysdata.net
+#set spoolfile = imaps://imap-sumit.alwaysdata.com/INBOX
+## set postponed="imaps://imap.gmail.com/[Gmail]/Drafts"
+#set smtp_url="smtps://smtp-sumit.alwaysdata.net"
+
+#### MESSAGE
+
+##If you are using port 465, that's SMTP over SSL/TLS. You should use "smtps://" instead of "smtp://".
+
+##If you want to use regular SMTP (ie. first plaintext connection, then switch to encrypted via STARTTLS), use port 587, not 465.
+
+#### END
+
+##set smtp_url="smtp://bruhcoders@gmail.com@smtp.gmail.com:587"
+##set smtp_url="smtp://smtp.gmail.com:587"
+#set move = no
+#set imap_keepalive = 900
+## set record="imaps://imap.gmail.com/[Gmail]/Sent Mail"
+
+## sorting messages
+#set sort = reverse-date-received
+##set sort=threads
+##set sort_browser=reverse-date
+##set sort_aux=last-date-received
+
+## Paths
+#set folder           = ~/.mail
+#set alias_file       = ~/.mutt/alias
+#set header_cache     = "~/.mutt/cache/headers"
+#set message_cachedir = "~/.mutt/cache/bodies"
+#set certificate_file = ~/.mutt/certificates
+#set mailcap_path     = ~/.mutt/mailcap
+#set tmpdir           = ~/.mutt/temp
+#set signature        = ~/.mutt/sig
+#set sig_on_top       = yes
+
+## Basic Options
+#set wait_key = no
+#set mbox_type = Maildir
+#unset move               # gmail does that
+
+## Sidebar Patch
+#set sidebar_visible = yes
+#set sidebar_width   = 16
+#color sidebar_new color221 color233
+
+### Account Settings
+## Default inbox
+#set spoolfile = "+sumit+alwaysdata.net/INBOX"
+
+## Mailboxes to show in the sidebar.
+#mailboxes +INBOX \
+#          +sent \
+#          +drafts
+
+## Other special folder
+#set postponed = "+sumit+alwaysdata.net/drafts"
+
+## navigation
+#macro index gi "<change-folder>=sumit+alwaysdata.net/INBOX<enter>" "Go to inbox"
+#macro index gt "<change-folder>=sumit+alwaysdata.net/sent" "View sent"

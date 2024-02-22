@@ -1,0 +1,12 @@
+/** Basic config file **/
+
+configuration {
+  show-icons:         false;
+  icon-theme:         "candy-icons";
+}
+window {
+    background-color: transparent;
+    border:           3;
+    padding:          5;
+}
+

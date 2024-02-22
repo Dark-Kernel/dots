@@ -1,0 +1,6 @@
+#!/bin/bash
+
+macchanger -l > vendormac.txt
+venmac=$(shuf -n 1 vendormac.txt | awk '{print$3}')
+randmac=$(printf '%02x:%02x:%02x' $[RANDOM%256] $[RANDOM%256] $[RANDOM%256])
+sudo macchanger -m "$venmac:$randmac" enp5s0

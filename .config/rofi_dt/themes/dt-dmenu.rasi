@@ -1,0 +1,116 @@
+/**
+ * ROFI Color theme
+ * NAME: dt-dmenu.rasi
+ * DESCRIPTION: This is a horizontal prompt similar to dmenu.
+ * AUTHOR: Derek Taylor (DT)
+ */
+
+/*
+* {
+    background-color:           #00000000;
+    border-color:               #282c34;
+    text-color:                 #ffffff;/*#bbc2cf;*/
+    height:                     20px;
+    font:                       "FiraCode-Regular";
+    prompt-font:                "FiraCode-Regular";
+    prompt-background:          #51afef;
+    prompt-foreground:          #282c34;
+    prompt-padding:             2px;
+    selected-normal-background: #ae3f3e;
+    selected-normal-foreground: #ffffff;
+}
+*/
+
+/*
+* {
+    transparent: #00000000;
+    foreground: #00000000;
+	selected-normal-background: blue;  
+    background-selected: white;
+    background-active: white;
+    background-color: #00000000;
+	prompt-foreground: #000000;
+	prompt-background: 
+    background-black: #00000000;
+    urgent: #E91E6366;
+    urgent-selected: #E91E6377;
+}
+*/
+
+* {
+    active-background: #606E88;
+    active-foreground: @foreground;
+    normal-background: @background;
+    normal-foreground: @foreground;
+    urgent-background: #1F6D8B;
+    urgent-foreground: @foreground;
+
+    alternate-active-background: @background;
+    alternate-active-foreground: @foreground;
+    alternate-normal-background: @background;
+    alternate-normal-foreground: @foreground;
+    alternate-urgent-background: @background;
+    alternate-urgent-foreground: @foreground;
+
+    selected-active-background: #1F6D8B;
+    selected-active-foreground: @foreground;
+    selected-normal-background: #606E88;
+    selected-normal-foreground: @foreground;
+    selected-urgent-background: #2D94A8;
+    selected-urgent-foreground: @foreground;
+
+    background-color: @background;
+    background: #03142D;
+    foreground: #eaccc4;
+    border-color: @background;
+    spacing: 2;
+}
+
+
+
+#window {
+    anchor: north;
+    location: north;
+    width: 100%;
+    padding: 0px;
+    children: [ horibox ];
+}
+#horibox {
+    orientation: horizontal;
+    children: [ prompt, entry, listview ];
+}
+#prompt {
+    padding:          @prompt-padding;
+    background-color: @prompt-background;
+    text-color:       @prompt-foreground;
+    font:             @prompt-font;
+}
+#listview {
+    layout: horizontal;
+    lines: 100;
+}
+#entry {
+    padding: 2px;
+    expand: false;
+    width: 10em;
+}
+#element {
+    padding: 2px 8px;
+}
+#element selected {
+    background-color: @selected-normal-background;
+    text-color:       @selected-normal-foreground;
+}
+
+#element-text {
+    background-color: inherit;
+    text-color:       inherit;
+}
+
+/* Not actually relevant for this configuration, but it might
+be useful to someone having issues with their icons' background color
+
+element-icon {
+    background-color: inherit;
+}
+*/

@@ -1,0 +1,86 @@
+import:
+  - ~/.cache/wal/colors-alacritty.yml
+
+env:
+  TERM: xterm-256color
+
+
+window:
+  opacity: 0.70
+  padding:
+    x: 10
+    y: 10
+
+    dynamic_padding:  true
+    decoration: full 
+
+font:
+  normal:
+    family: "JetBrainsMono Nerd Font"
+    style: Regular
+
+  bold:
+    family: "JetBrainsMono Nerd Font"
+    style: Bold
+
+  italic:
+    family: "JetBrainsMono Nerd Font" #JetBrains Mono
+    style: Italic
+
+  bold_italic:
+    family: "JetBrainsMono Nerd Font" #JetBrains Mono
+    style: Bold Italic
+
+  size: 9.44 #9.24
+
+
+live_config_reload: true
+
+mouse:
+  hide_when_typing: true
+
+key_bindings:
+  - { key: V,         mods: Alt,           action: Paste                       }
+  - { key: C,         mods: Alt,           action: Copy                        }
+  - { key: Insert,    mods: Shift,         action: PasteSelection              }
+  - { key: Key0,      mods: Control,       action: ResetFontSize               }
+  - { key: Plus,      mods: Control,       action: IncreaseFontSize            }
+  - { key: Minus,     mods: Control,       action: DecreaseFontSize            }
+  - { key: F11,       mods: None,          action: ToggleFullscreen            }
+  - { key: L,         mods: Control,       action: ClearLogNotice              }
+  - { key: L,         mods: Control,       chars: "\x0c"                       }
+  - { key: PageUp,    mods: None,          action: ScrollPageUp,   mode: ~Alt  }
+  - { key: PageDown,  mods: None,          action: ScrollPageDown, mode: ~Alt  }
+  - { key: Home,      mods: Shift,         action: ScrollToTop,    mode: ~Alt  }
+  - { key: End,       mods: Shift,         action: ScrollToBottom, mode: ~Alt  }
+  - { key: K,         mods: Alt,           action: ScrollLineUp,   mode: ~Alt  }
+  - { key: J,         mods: Alt,           action: ScrollLineDown, mode: ~Alt  }
+  - { key: N,         mods: Alt,           action: CreateNewWindow, mode: ~Alt  }
+
+# # BEGIN ACE
+# colors:
+#   primary:
+#     background: '#111022'
+#     foreground: '#f0c2ad'
+#   cursor:
+#     text:       '#111022'
+#     cursor:     '#f0c2ad'
+#   normal:
+#     black:      '#111022'
+#     red:        '#704F69'
+#     green:      '#863D4D'
+#     yellow:     '#9D5B5E'
+#     blue:       '#8E5468'
+#     magenta:    '#AC5A67'
+#     cyan:       '#DA6A69'
+#     white:      '#f0c2ad'
+#   bright:
+#     black:      '#a88779'
+#     red:        '#704F69'
+#     green:      '#863D4D'
+#     yellow:     '#9D5B5E'
+#     blue:       '#8E5468'
+#     magenta:    '#AC5A67'
+#     cyan:       '#DA6A69'
+#     white:      '#f0c2ad'
+# # END ACE

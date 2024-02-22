@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# curl -sF "file=@$1" 0x0.st | xclip -selection c
+curl -sF "file=@$1" 0x0.st | tr '\n' ' ' | wl-copy
+notify-send "On clip"
+
+

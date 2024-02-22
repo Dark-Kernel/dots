@@ -1,0 +1,5 @@
+#!/bin/bash
+
+PATH='/home/stroky/Videos/recordd'
+
+wf-recorder -a -l -F format=rgb24 -x rgb24 -p qp=0 -p crf=0 -p preset=veryslow -p tune=animation -c libx264rgb -f testrgb2.mp4

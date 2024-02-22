@@ -1,0 +1,2 @@
+
+cat ~/.local/codes/projects/.gtoken.txt | tr -d '\n' | xclip -sel c

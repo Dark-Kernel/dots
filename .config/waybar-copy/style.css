@@ -1,0 +1,96 @@
+@import "style-color.css";
+
+
+* {
+	transition: none;
+	transition: none;
+}
+
+#waybar {
+    font-family: 'JetBrains Mono', sans-serif;
+	font-size: 1em;
+	font-weight: 400;
+	color: @base04;
+	background: rgba(0,0,0,0.5); 
+    
+}
+
+tooltip {
+    background: #1e1e2e;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #11111b;
+}
+
+#workspaces button {
+    margin: 4px 0;
+	padding: 0 4px;
+	color: @base05;
+}
+
+#workspaces button.active {
+    color: black;
+	border-radius: 4px;
+	background-color: #ffffff;
+}
+
+#workspaces button.visible {
+}
+
+
+/* #workspaces button.focused { */
+/*     color: #a6adc8; */
+/*     background: #eba0ac; */
+/*     border-radius: 10px; */
+/* } */
+
+#workspaces button.urgent {
+    color: rgba(238, 46, 36, 1);
+    
+}
+
+
+/* #tray { */
+/*     margin: 4px 4px 4px 4px; */
+/* 	border-radius: 4px; */
+/*     background-color: rgba(0,0,0,0) */
+/* } */
+
+#workspaces {
+   margin: 0 4px; 
+}
+
+
+
+#window {
+    border-radius: 10px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+#clock {
+    padding-left: 3px;
+	padding-right: 4px;
+}
+
+#pulseaudio {
+    border-left: 0px;
+    border-right: 0px;
+	padding-right: 4px;
+}
+
+#tray {
+    background: #1e1e2e;
+    padding: 0px 10px;
+    margin: 3px 0px;
+    margin-top: 5px;
+    border: 1px solid #181825;
+}
+
+#tray {
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+

@@ -1,0 +1,5 @@
+#!/bin/bash
+
+name=$(zenity --entry)
+grim -g "$(slurp)" "/home/stroky/.local/codes/html/hugo-sites/hugo-terminal-theme/static/$name.png"
+#grim -g "$(slurp)" -o /home/stroky/.local/codes/html/hugo-sites/hugo-terminal-theme/static/$name.png

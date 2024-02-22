@@ -1,0 +1,7 @@
+#!/bin/bash
+
+if [ "$(hyprctl plugin load /home/stroky/.local/src/hyprland-plugins/hyprbars/hyprbars.so)" == "error in loading plugin" ] ;then
+    hyprctl plugin unload /home/stroky/.local/src/hyprland-plugins/hyprbars/hyprbars.so
+else
+    hyprctl plugin load /home/stroky/.local/src/hyprland-plugins/hyprbars/hyprbars.so
+fi

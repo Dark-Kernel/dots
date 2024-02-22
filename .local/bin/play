@@ -1,0 +1,33 @@
+#!/bin/zsh 
+
+raw=$(curl "https://www.last.fm/search?q=$1" | tee >(pup 'a.chartlist-play-button attr{href}') >(pup 'a.chartlist-play-button attr{data-artist-name}') | pup 'a.chartlist-play-button attr{data-track-name}')
+
+data=()
+while IFS= read -r val; do
+	data+=("'$val'")
+done < <(printf '%s\n' $raw)
+
+#echo -e "ALL: \n$data\n" 
+name=${data[1,9]}
+#echo -e "\nname: \n$name\n"
+artist=${data[10,18]}
+#echo -e "\nlinks: \n$link\n"
+link=${data[19,27]}
+#echo -e "\nArtists: \n$artist\n"
+
+eval "names=($name)"
+eval "artists=($artist)"
+eval "links=($link)"
+
+art=()
+for i in {1..9}
+do 
+  art+=$(echo -e "'${names[$i]} | ${artists[$i]} | ${links[$i]}'")
+done
+
+#echo -e "$art\n" 
+eval "comb=($art)"
+#echo "${comb[2]}"
+echo "${comb[@]/%/\n}" | sed 's/^ //' | dmenu -l 10 | cut -d '|' -f 3 | xargs -I{} -n 1 mpv --no-video "{}" 
+
+

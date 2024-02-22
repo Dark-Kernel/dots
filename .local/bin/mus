@@ -1,0 +1,18 @@
+#!/bin/bash
+
+mus=$(curl -s -H "user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.182 Safari/537.36" "https://soundcloud.com/search?q=$1" | grep -Eo '<li><h2>.*' | grep -Eo 'href=".*"' | cut -d = -f2 )
+
+arr=()
+while IFS= read -r val; do
+    arr+=("'$val'")
+done < <(printf '%s\n' $mus )
+
+if [ "$2" == "l" ]; then 
+	sel=$(echo "$mus" | sed "s/'//g; s/\"//g" | fzf)
+	mpv "https://soundcloud.com$sel" 
+elif [ "$2" == "p" ]; then 
+	first=$(echo "https://soundcloud.com$arr" | sed "s/'//g; s/\"//g")
+	mpv "$first" 
+fi
+
+

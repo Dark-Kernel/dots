@@ -1,0 +1,10 @@
+" Move line up and down.
+
+nnoremap K :m .-2<CR>==
+nnoremap J :m .+2<CR>==
+vnoremap K :m '<-2<CR>gv=gv
+vnoremap J :m '>+2<CR>gv=gv
+
+set number 		  " For line number in vim 
+set tabstop=4             " How many spaces to enter for each tab
+
